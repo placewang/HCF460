@@ -1,0 +1,9 @@
+.\output\debug\port.o: ..\modbus_port\rtt\port.c
+.\output\debug\port.o: ..\modbus_port\rtt\../port.h
+.\output\debug\port.o: ..\modbus_port\rtt\../../modbus/include/mbconfig.h
+.\output\debug\port.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\assert.h
+.\output\debug\port.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\debug\port.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\debug\port.o: ..\source\../modbus/include/mb.h
+.\output\debug\port.o: ..\source\../modbus/include/mbport.h
+.\output\debug\port.o: ..\source\../modbus/include/mbproto.h

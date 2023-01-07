@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: baozi ADMIN, baozi, LIC=ZB445-G4BHR-NA0DU-SKJ8G-N00QN-FZNA8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.30.0.0
+Toolchain Path:  D:\Tool\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.42.0.0
+ 
+<h2>Project:</h2>
+E:\EXX_PROJECT\PRO_V0.2\PRO_CAN_TO_SPI\example\pro\cantospi\MDK\cantospi.uvprojx
+Project File Date:  01/06/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Tool\Keil\ARM\ARMCC\Bin'
+Rebuild target 'spi_four_wire_tx_and_rx_interrupt_Debug'
+assembling startup_hc32f46x.s...
+compiling system_hc32f46x.c...
+compiling dct.c...
+compiling xzq.c...
+compiling main.c...
+..\source\main.c(288): warning:  #177-D: variable "datbuf"  was declared but never referenced
+      unsigned char nspi=0,datbuf[8]={0};
+..\source\main.c: 1 warning, 0 errors
+compiling mot.c...
+compiling bsp.c...
+compiling message.c...
+compiling hc32f46x_gpio.c...
+compiling hc32f46x_utility.c...
+compiling hc32f46x_efm.c...
+compiling hc32f46x_exint_nmi_swi.c...
+compiling hc32f46x_clk.c...
+compiling machconfig.c...
+compiling upgrade_spi.c...
+compiling hc32f46x_spi.c...
+compiling hc32f46x_timer0.c...
+compiling hc32f46x_can.c...
+compiling hc32f46x_pwc.c...
+compiling hc32f46x_interrupts.c...
+linking...
+Program Size: Code=44828 RO-data=5688 RW-data=164 ZI-data=159604  
+FromELF: creating hex file...
+After Build - User command #1: D:/Tool/Keil/ARM/ARMCC/bin/fromelf.exe --bin -o ./output/debug/cantospi.bin ./output/debug/cantospi.axf
+".\output\debug\cantospi.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: HDSC
+                https://raw.githubusercontent.com/hdscmcu/pack/master/HDSC.HC32F46x.1.0.5.pack
+                HDSC.HC32F46x.1.0.5
+                HC32F46x ARM Cortex-M4 Device Family Pack
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_spi_four_wire_tx_and_rx_interrupt_Debug
+  D:\Tool\Keil\HDSC\HC32F46x\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:29
+</pre>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.\output\debug\portevent_m.o: ..\modbus_port\rtt\portevent_m.c
+.\output\debug\portevent_m.o: ..\source\../modbus/include/mb.h
+.\output\debug\portevent_m.o: ..\modbus_port\port.h
+.\output\debug\portevent_m.o: ..\modbus_port\../modbus/include/mbconfig.h
+.\output\debug\portevent_m.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\assert.h
+.\output\debug\portevent_m.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\debug\portevent_m.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\debug\portevent_m.o: ..\source\../modbus/include/mbport.h
+.\output\debug\portevent_m.o: ..\source\../modbus/include/mbproto.h
+.\output\debug\portevent_m.o: ..\source\../modbus/include/mb_m.h

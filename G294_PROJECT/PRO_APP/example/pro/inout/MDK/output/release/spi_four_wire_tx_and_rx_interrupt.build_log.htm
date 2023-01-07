@@ -1,0 +1,195 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: w hqwdc, w, LIC=585FJ-UQ819-74TS0-B1X5Q-UTX5Q-XS300
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\hqwdc\Desktop\G294\G294_PROJECT\PRO_APP\example\pro\inout\MDK\inout.uvprojx
+Project File Date:  11/22/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
+Build target 'spi_four_wire_tx_and_rx_interrupt_Release'
+compiling machconfig.c...
+assembling startup_hc32f46x.s...
+compiling system_hc32f46x.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\mcu\common\system_hc32f46x.c: 0 warnings, 1 error
+compiling message.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\source\message.c: 0 warnings, 1 error
+compiling main.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\source\main.c: 0 warnings, 1 error
+compiling upgrade.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\source\upgrade.c: 0 warnings, 1 error
+compiling logic_lay.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\source\logic_lay.c: 0 warnings, 1 error
+compiling mot.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\source\mot.c: 0 warnings, 1 error
+compiling tmc5610.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\source\tmc5610.c: 0 warnings, 1 error
+compiling board_g294.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\source\board_g294.c: 0 warnings, 1 error
+compiling motordemand.c...
+D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h(56): error:  #130: expected a "{"
+  typedef   signed          char int8_t;
+..\source\machconfig.h(21): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\source\machconfig.h(22): error:  #20: identifier "DEVID_MOT1" is undefined
+   DEVID_MOT1=0x10, //升降电机
+..\source\machconfig.h(23): error:  #20: identifier "DEVID_MOT2" is undefined
+   DEVID_MOT2=9, //风门电机
+..\source\machconfig.h(24): error:  #20: identifier "DEVID_VALVE" is undefined
+   DEVID_VALVE=11,
+..\source\machconfig.h(25): error:  #20: identifier "DEVID_INOUT" is undefined
+   DEVID_INOUT=12,
+..\source\machconfig.h(26): error:  #29: expected an expression
+  };
+..\source\machconfig.h(26): error:  #65: expected a ";"
+  };
+..\source\machconfig.h(26): warning:  #940-D: missing return statement at end of non-void function "CanRaedMassgaAnalysis" 
+  };
+..\source\machconfig.h(34): error:  #20: identifier "uint16_t" is undefined
+   uint16_t  hardware;
+..\source\message.h(125): error:  #20: identifier "uint8_t" is undefined
+   uint8_t writecnt;
+..\source\message.h(126): error:  #20: identifier "uint8_t" is undefined
+   uint8_t readcnt;
+..\source\message.h(127): error:  #20: identifier "uint16_t" is undefined
+   uint16_t canid[CAN_RX_LEN]; 
+..\source\message.h(128): error:  #20: identifier "uint8_t" is undefined
+   uint8_t  buf[CAN_RX_LEN][8];      
+..\source\message.h(135): error:  #20: identifier "uint8_t" is undefined
+   uint8_t id;
+..\source\message.h(136): error:  #20: identifier "uint8_t" is undefined
+   uint8_t code;
+..\source\message.h(142): error:  #20: identifier "uint8_t" is undefined
+   uint8_t dev_id;
+..\source\message.h(143): error:  #20: identifier "uint8_t" is undefined
+   uint8_t index;
+..\source\message.h(144): error:  #20: identifier "uint32_t" is undefined
+   uint32_t value;
+..\source\message.h(151): error:  #20: identifier "uint8_t" is undefined
+   uint8_t alarmflag;
+..\source\message.h(152): error:  #20: identifier "uint8_t" is undefined
+   uint8_t writecnt;
+..\source\message.h(153): error:  #20: identifier "uint8_t" is undefined
+   uint8_t readcnt;
+..\source\message.h(170): error:  #20: identifier "uint8_t" is undefined
+   uint8_t write;
+..\source\message.h(171): error:  #20: identifier "uint8_t" is undefined
+   uint8_t read;    
+..\source\message.h(172): error:  #20: identifier "uint8_t" is undefined
+   uint8_t addr[CMDLEN];     //从机地址
+..\source\message.h(173): error:  #20: identifier "uint8_t" is undefined
+   uint8_t cmd[CMDLEN];      //从机功能码
+..\source\message.h(174): error:  #20: identifier "uint8_t" is undefined
+   uint8_t datlen[CMDLEN];   //数据长度
+..\source\message.h(175): error:  #20: identifier "uint8_t" is undefined
+   uint8_t data[CMDLEN][50];     
+..\source\message.h(205): error:  #20: identifier "uint8_t" is undefined
+  extern void Alarmlist_Push(AlarmList_TypeDef *alarml,uint8_t id,uint8_t code,int infor);
+..\source\message.h(205): error:  #20: identifier "uint8_t" is undefined
+  extern void Alarmlist_Push(AlarmList_TypeDef *alarml,uint8_t id,uint8_t code,int infor);
+..\source\message.h(211): error:  #20: identifier "uint8_t" is undefined
+  extern void UartMessagePushTxlist(uint8_t level,uint8_t host,uint8_t addr,uint8_t cmd,uint8_t *data,uint8_t len);
+..\source\message.h(211): error:  #20: identifier "uint8_t" is undefined
+  extern void UartMessagePushTxlist(uint8_t level,uint8_t host,uint8_t addr,uint8_t cmd,uint8_t *data,uint8_t len);
+..\source\motordemand.c: 2 warnings, 30 errors
+compiling hc32f46x_utility.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_utility.c: 0 warnings, 1 error
+compiling hc32f46x_clk.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_clk.c: 0 warnings, 1 error
+compiling hc32f46x_efm.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_efm.c: 0 warnings, 1 error
+compiling hc32f46x_exint_nmi_swi.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_exint_nmi_swi.c: 0 warnings, 1 error
+compiling hc32f46x_gpio.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_gpio.c: 0 warnings, 1 error
+compiling hc32f46x_interrupts.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_interrupts.c: 0 warnings, 1 error
+compiling hc32f46x_pwc.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_pwc.c: 0 warnings, 1 error
+compiling hc32f46x_timer0.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_timer0.c: 0 warnings, 1 error
+compiling hc32f46x_usart.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_usart.c: 0 warnings, 1 error
+compiling hc32f46x_can.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_can.c: 0 warnings, 1 error
+compiling hc32f46x_timera.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_timera.c: 0 warnings, 1 error
+compiling hc32f46x_spi.c...
+..\..\..\..\mcu\common\hc32f46x.h(231): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include <core_cm4.h>
+..\..\..\..\driver\src\hc32f46x_spi.c: 0 warnings, 1 error
+".\output\release\spi_four_wire_tx_and_rx_interrupt.axf" - 50 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: HDSC
+                https://raw.githubusercontent.com/hdscmcu/pack/master/HDSC.HC32F460.1.0.9.pack
+                HDSC.HC32F460.1.0.9
+                HC32F460 ARM Cortex-M4 Device Family Pack
+
+<h2>Collection of Component include folders:</h2>
+  D:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

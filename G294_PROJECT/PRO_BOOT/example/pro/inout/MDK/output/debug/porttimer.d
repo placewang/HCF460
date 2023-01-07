@@ -1,0 +1,9 @@
+.\output\debug\porttimer.o: ..\modbus_port\rtt\porttimer.c
+.\output\debug\porttimer.o: ..\modbus_port\rtt\../port.h
+.\output\debug\porttimer.o: ..\modbus_port\rtt\../../modbus/include/mbconfig.h
+.\output\debug\porttimer.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\assert.h
+.\output\debug\porttimer.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\debug\porttimer.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\debug\porttimer.o: ..\source\../modbus/include/mb.h
+.\output\debug\porttimer.o: ..\source\../modbus/include/mbport.h
+.\output\debug\porttimer.o: ..\source\../modbus/include/mbproto.h

@@ -1,0 +1,479 @@
+Dependencies for Project 'inout', Target 'spi_four_wire_tx_and_rx_interrupt_Debug': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_hc32f46x.s)(0x6049A9F2)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include--pd "__UVISION_VERSION SETA 536"-o .\output\debug\startup_hc32f46x.o --depend .\output\debug\startup_hc32f46x.d)
+F (..\..\..\..\mcu\common\system_hc32f46x.c)(0x5E58C5C8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\system_hc32f46x.o --omf_browse .\output\debug\system_hc32f46x.crf --depend .\output\debug\system_hc32f46x.d)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+F (..\source\main.c)(0x60632C96)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\main.o --omf_browse .\output\debug\main.crf --depend .\output\debug\main.d)
+I (..\..\..\..\mcu\common\hc32_ddl.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_can.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_clk.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_efm.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_exint_nmi_swi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_gpio.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_icg.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_interrupts.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_pwc.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_spi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timer0.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timera.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+I (..\source\bsp.h)(0x60B9C268)
+I (..\modbus\mb_host.h)(0x605C8154)
+I (..\modbus\mb_port.h)(0x605D992A)
+I (..\source\message.h)(0x60A1DD8C)
+I (..\source\eeprom.h)(0x5FACCDF8)
+I (..\source\upgrade.h)(0x60A1F6FC)
+F (..\source\message.c)(0x60B9C44A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\message.o --omf_browse .\output\debug\message.crf --depend .\output\debug\message.d)
+I (..\source\message.h)(0x60A1DD8C)
+I (..\source\bsp.h)(0x60B9C268)
+I (..\..\..\..\driver\inc\hc32f46x_gpio.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_pwc.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timer0.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_spi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_can.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_interrupts.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timera.h)(0x5E58C5C8)
+I (..\modbus\mb_host.h)(0x605C8154)
+I (..\modbus\mb_port.h)(0x605D992A)
+I (..\..\..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_efm.h)(0x5E58C5C8)
+F (..\source\bsp.c)(0x60B5962C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\bsp.o --omf_browse .\output\debug\bsp.crf --depend .\output\debug\bsp.d)
+I (..\source\bsp.h)(0x60B9C268)
+I (..\..\..\..\driver\inc\hc32f46x_gpio.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_pwc.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timer0.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_spi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_can.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_interrupts.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timera.h)(0x5E58C5C8)
+I (..\modbus\mb_host.h)(0x605C8154)
+I (..\modbus\mb_port.h)(0x605D992A)
+I (..\..\..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_clk.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_ddl.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_efm.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_exint_nmi_swi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_icg.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+I (..\source\machconfig.h)(0x601A5068)
+I (..\source\message.h)(0x60A1DD8C)
+I (..\source\upgrade.h)(0x60A1F6FC)
+F (..\source\machconfig.c)(0x60472E1A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\machconfig.o --omf_browse .\output\debug\machconfig.crf --depend .\output\debug\machconfig.d)
+I (..\source\machconfig.h)(0x601A5068)
+I (..\source\bsp.h)(0x60B9C268)
+I (..\..\..\..\driver\inc\hc32f46x_gpio.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_pwc.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timer0.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_spi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_can.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_interrupts.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timera.h)(0x5E58C5C8)
+I (..\modbus\mb_host.h)(0x605C8154)
+I (..\modbus\mb_port.h)(0x605D992A)
+I (..\..\..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C8)
+F (..\source\upgrade.c)(0x60B9C44C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\upgrade.o --omf_browse .\output\debug\upgrade.crf --depend .\output\debug\upgrade.d)
+I (..\source\upgrade.h)(0x60A1F6FC)
+I (..\source\bsp.h)(0x60B9C268)
+I (..\..\..\..\driver\inc\hc32f46x_gpio.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_pwc.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timer0.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_spi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_can.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_interrupts.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timera.h)(0x5E58C5C8)
+I (..\modbus\mb_host.h)(0x605C8154)
+I (..\modbus\mb_port.h)(0x605D992A)
+I (..\..\..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_ddl.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_clk.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_efm.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_exint_nmi_swi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_icg.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+I (..\source\message.h)(0x60A1DD8C)
+F (..\modbus\mb_host.c)(0x605DB88C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\mb_host.o --omf_browse .\output\debug\mb_host.crf --depend .\output\debug\mb_host.d)
+I (..\modbus\mb_include.h)(0x603C38BC)
+I (..\modbus\mb_crc.h)(0x603C3940)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\modbus\mb_host.h)(0x605C8154)
+I (..\modbus\mb_port.h)(0x605D992A)
+I (..\source\bsp.h)(0x60B9C268)
+I (..\..\..\..\driver\inc\hc32f46x_gpio.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_pwc.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timer0.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_spi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_can.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_interrupts.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timera.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C8)
+I (..\modbus\mb_hook.h)(0x604836E2)
+I (..\source\message.h)(0x60A1DD8C)
+F (..\modbus\mb_hook.c)(0x6040C672)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\mb_hook.o --omf_browse .\output\debug\mb_hook.crf --depend .\output\debug\mb_hook.d)
+I (..\modbus\mb_include.h)(0x603C38BC)
+I (..\modbus\mb_crc.h)(0x603C3940)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\modbus\mb_host.h)(0x605C8154)
+I (..\modbus\mb_port.h)(0x605D992A)
+I (..\source\bsp.h)(0x60B9C268)
+I (..\..\..\..\driver\inc\hc32f46x_gpio.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_pwc.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timer0.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_spi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_can.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_interrupts.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timera.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C8)
+I (..\modbus\mb_hook.h)(0x604836E2)
+F (..\modbus\mb_port.c)(0x605D992A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\mb_port.o --omf_browse .\output\debug\mb_port.crf --depend .\output\debug\mb_port.d)
+I (..\modbus\mb_include.h)(0x603C38BC)
+I (..\modbus\mb_crc.h)(0x603C3940)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\modbus\mb_host.h)(0x605C8154)
+I (..\modbus\mb_port.h)(0x605D992A)
+I (..\source\bsp.h)(0x60B9C268)
+I (..\..\..\..\driver\inc\hc32f46x_gpio.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_pwc.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timer0.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_spi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_can.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_interrupts.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timera.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C8)
+I (..\modbus\mb_hook.h)(0x604836E2)
+F (..\modbus\mb_crc.c)(0x5D8D77A2)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\mb_crc.o --omf_browse .\output\debug\mb_crc.crf --depend .\output\debug\mb_crc.d)
+I (..\modbus\mb_include.h)(0x603C38BC)
+I (..\modbus\mb_crc.h)(0x603C3940)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\modbus\mb_host.h)(0x605C8154)
+I (..\modbus\mb_port.h)(0x605D992A)
+I (..\source\bsp.h)(0x60B9C268)
+I (..\..\..\..\driver\inc\hc32f46x_gpio.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_pwc.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timer0.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_spi.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_can.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_interrupts.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_timera.h)(0x5E58C5C8)
+I (..\..\..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C8)
+I (..\modbus\mb_hook.h)(0x604836E2)
+F (..\..\..\..\driver\src\hc32f46x_utility.c)(0x5E58C5C8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\hc32f46x_utility.o --omf_browse .\output\debug\hc32f46x_utility.crf --depend .\output\debug\hc32f46x_utility.d)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+F (..\..\..\..\driver\src\hc32f46x_clk.c)(0x5E58C5C8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\hc32f46x_clk.o --omf_browse .\output\debug\hc32f46x_clk.crf --depend .\output\debug\hc32f46x_clk.d)
+I (..\..\..\..\driver\inc\hc32f46x_clk.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+F (..\..\..\..\driver\src\hc32f46x_efm.c)(0x5FB42CD4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\hc32f46x_efm.o --omf_browse .\output\debug\hc32f46x_efm.crf --depend .\output\debug\hc32f46x_efm.d)
+I (..\..\..\..\driver\inc\hc32f46x_efm.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+F (..\..\..\..\driver\src\hc32f46x_exint_nmi_swi.c)(0x5E58C5C8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\hc32f46x_exint_nmi_swi.o --omf_browse .\output\debug\hc32f46x_exint_nmi_swi.crf --depend .\output\debug\hc32f46x_exint_nmi_swi.d)
+I (..\..\..\..\driver\inc\hc32f46x_exint_nmi_swi.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+F (..\..\..\..\driver\src\hc32f46x_gpio.c)(0x60378198)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\hc32f46x_gpio.o --omf_browse .\output\debug\hc32f46x_gpio.crf --depend .\output\debug\hc32f46x_gpio.d)
+I (..\..\..\..\driver\inc\hc32f46x_gpio.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+F (..\..\..\..\driver\src\hc32f46x_interrupts.c)(0x5E58C5C8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\hc32f46x_interrupts.o --omf_browse .\output\debug\hc32f46x_interrupts.crf --depend .\output\debug\hc32f46x_interrupts.d)
+I (..\..\..\..\driver\inc\hc32f46x_interrupts.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+F (..\..\..\..\driver\src\hc32f46x_pwc.c)(0x5E58C5C8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\hc32f46x_pwc.o --omf_browse .\output\debug\hc32f46x_pwc.crf --depend .\output\debug\hc32f46x_pwc.d)
+I (..\..\..\..\driver\inc\hc32f46x_pwc.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+F (..\..\..\..\driver\src\hc32f46x_timer0.c)(0x5E58C5C8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\hc32f46x_timer0.o --omf_browse .\output\debug\hc32f46x_timer0.crf --depend .\output\debug\hc32f46x_timer0.d)
+I (..\..\..\..\driver\inc\hc32f46x_timer0.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+F (..\..\..\..\driver\src\hc32f46x_can.c)(0x5F9FECC0)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\hc32f46x_can.o --omf_browse .\output\debug\hc32f46x_can.crf --depend .\output\debug\hc32f46x_can.d)
+I (..\..\..\..\driver\inc\hc32f46x_can.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+F (..\..\..\..\driver\src\hc32f46x_usart.c)(0x5E58C5C8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\hc32f46x_usart.o --omf_browse .\output\debug\hc32f46x_usart.crf --depend .\output\debug\hc32f46x_usart.d)
+I (..\..\..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)
+F (..\..\..\..\driver\src\hc32f46x_timera.c)(0x5E58C5C8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I ..\modbus_port -I ..\modbus -I D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include --diag_suppress=186,66-ID:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include-D__UVISION_VERSION="536" -D__DEBUG -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\debug\hc32f46x_timera.o --omf_browse .\output\debug\hc32f46x_timera.crf --depend .\output\debug\hc32f46x_timera.d)
+I (..\..\..\..\driver\inc\hc32f46x_timera.h)(0x5E58C5C8)
+I (..\..\..\..\mcu\common\hc32_common.h)(0x5E58C5C8)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\mcu\common\hc32f46x.h)(0x5E58C5C8)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\keilpacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C8)
+I (..\source\ddl_config.h)(0x6040B9C4)
+I (..\..\..\..\driver\inc\hc32f46x_utility.h)(0x5E58C5C8)

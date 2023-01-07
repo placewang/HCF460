@@ -1,0 +1,9 @@
+.\output\release\hc32f46x_timer0.o: ..\..\..\..\driver\src\hc32f46x_timer0.c
+.\output\release\hc32f46x_timer0.o: ..\..\..\..\driver\inc\hc32f46x_timer0.h
+.\output\release\hc32f46x_timer0.o: ..\..\..\..\mcu\common\hc32_common.h
+.\output\release\hc32f46x_timer0.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\release\hc32f46x_timer0.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\output\release\hc32f46x_timer0.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\release\hc32f46x_timer0.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\release\hc32f46x_timer0.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\release\hc32f46x_timer0.o: ..\..\..\..\mcu\common\hc32f46x.h

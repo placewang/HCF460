@@ -1,0 +1,13 @@
+.\output\debug\mbtcp.o: ..\modbus\tcp\mbtcp.c
+.\output\debug\mbtcp.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\debug\mbtcp.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\output\debug\mbtcp.o: ..\source\../modbus_port/port.h
+.\output\debug\mbtcp.o: ..\source\../modbus_port/../modbus/include/mbconfig.h
+.\output\debug\mbtcp.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\assert.h
+.\output\debug\mbtcp.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\debug\mbtcp.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\debug\mbtcp.o: ..\modbus\tcp\../include/mb.h
+.\output\debug\mbtcp.o: ..\modbus\tcp\../include/mbport.h
+.\output\debug\mbtcp.o: ..\modbus\tcp\../include/mbproto.h
+.\output\debug\mbtcp.o: ..\modbus\tcp\../tcp/mbtcp.h
+.\output\debug\mbtcp.o: ..\modbus\tcp\../include/mbframe.h

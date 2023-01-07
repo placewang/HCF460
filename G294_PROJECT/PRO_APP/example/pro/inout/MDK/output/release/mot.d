@@ -1,0 +1,12 @@
+.\output\release\mot.o: ..\source\mot.c
+.\output\release\mot.o: ..\source\mot.h
+.\output\release\mot.o: ..\source\machconfig.h
+.\output\release\mot.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\release\mot.o: ..\source\board_g294.h
+.\output\release\mot.o: ..\..\..\..\driver\inc\hc32f46x_spi.h
+.\output\release\mot.o: ..\..\..\..\mcu\common\hc32_common.h
+.\output\release\mot.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\release\mot.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\output\release\mot.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\release\mot.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\release\mot.o: ..\..\..\..\mcu\common\hc32f46x.h

@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: w hqwdc, w, LIC=585FJ-UQ819-74TS0-B1X5Q-UTX5Q-XS300
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.40.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\hqwdc\Desktop\G294\G294_PROJECT\PRO_BOOT\example\pro\inout\MDK\inout.uvprojx
+Project File Date:  11/07/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
+Rebuild target 'spi_four_wire_tx_and_rx_interrupt_Debug'
+assembling startup_hc32f46x.s...
+compiling system_hc32f46x.c...
+compiling machconfig.c...
+compiling mb_host.c...
+compiling main.c...
+compiling message.c...
+..\source\message.c(783): warning:  #940-D: missing return statement at end of non-void function "CanMessageSendReal" 
+  }
+..\source\message.c(751): warning:  #177-D: variable "i"  was declared but never referenced
+     int i;
+..\source\message.c(752): warning:  #177-D: variable "flag"  was declared but never referenced
+     int flag=0;
+..\source\message.c(754): warning:  #177-D: variable "timover"  was declared but never referenced
+     int timover=0;
+..\source\message.c: 4 warnings, 0 errors
+compiling upgrade.c...
+..\source\upgrade.c(265): warning:  #177-D: variable "delay"  was declared but never referenced
+  		int delay = 10000;
+..\source\upgrade.c(133): warning:  #177-D: variable "reciveid"  was declared but never referenced
+   unsigned short reciveid,writesector_cnt=0,crcval=0,crc_recive=0;
+..\source\upgrade.c(134): warning:  #177-D: variable "num_sys"  was declared but never referenced
+   unsigned char num_sys,buff_rx[8]={0,0,0,0,0,0,0,0},lastlen=0;
+..\source\upgrade.c(134): warning:  #177-D: variable "lastlen"  was declared but never referenced
+   unsigned char num_sys,buff_rx[8]={0,0,0,0,0,0,0,0},lastlen=0;
+..\source\upgrade.c(141): warning:  #177-D: label "Upgrade"  was declared but never referenced
+     Upgrade:
+..\source\upgrade.c: 5 warnings, 0 errors
+compiling bsp.c...
+compiling hc32f46x_efm.c...
+compiling hc32f46x_exint_nmi_swi.c...
+compiling mb_crc.c...
+compiling mb_hook.c...
+compiling hc32f46x_utility.c...
+compiling mb_port.c...
+compiling hc32f46x_clk.c...
+compiling hc32f46x_gpio.c...
+compiling hc32f46x_usart.c...
+compiling hc32f46x_can.c...
+compiling hc32f46x_timera.c...
+compiling hc32f46x_timer0.c...
+compiling hc32f46x_pwc.c...
+compiling hc32f46x_interrupts.c...
+linking...
+Program Size: Code=29812 RO-data=93072 RW-data=104 ZI-data=45988  
+FromELF: creating hex file...
+".\output\debug\inout.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: HDSC
+                https://raw.githubusercontent.com/hdscmcu/pack/master/HDSC.HC32F460.1.0.9.pack
+                HDSC.HC32F460.1.0.9
+                HC32F460 ARM Cortex-M4 Device Family Pack
+
+<h2>Collection of Component include folders:</h2>
+  D:\keilpacks\HDSC\HC32F460\1.0.9\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:37
+</pre>
+</body>
+</html>

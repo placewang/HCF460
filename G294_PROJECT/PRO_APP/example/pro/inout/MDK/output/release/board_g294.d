@@ -1,0 +1,11 @@
+.\output\release\board_g294.o: ..\source\board_g294.c
+.\output\release\board_g294.o: ..\source\board_g294.h
+.\output\release\board_g294.o: ..\source\machconfig.h
+.\output\release\board_g294.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\release\board_g294.o: ..\..\..\..\driver\inc\hc32f46x_spi.h
+.\output\release\board_g294.o: ..\..\..\..\mcu\common\hc32_common.h
+.\output\release\board_g294.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\release\board_g294.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\output\release\board_g294.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\release\board_g294.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\release\board_g294.o: ..\..\..\..\mcu\common\hc32f46x.h

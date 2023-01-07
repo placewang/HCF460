@@ -1,0 +1,14 @@
+.\output\debug\mbascii.o: ..\modbus\ascii\mbascii.c
+.\output\debug\mbascii.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\debug\mbascii.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\output\debug\mbascii.o: ..\source\../modbus_port/port.h
+.\output\debug\mbascii.o: ..\source\../modbus_port/../modbus/include/mbconfig.h
+.\output\debug\mbascii.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\assert.h
+.\output\debug\mbascii.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\debug\mbascii.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\debug\mbascii.o: ..\modbus\ascii\../include/mb.h
+.\output\debug\mbascii.o: ..\modbus\ascii\../include/mbport.h
+.\output\debug\mbascii.o: ..\modbus\ascii\../include/mbproto.h
+.\output\debug\mbascii.o: ..\modbus\ascii\mbascii.h
+.\output\debug\mbascii.o: ..\modbus\ascii\../include/mbframe.h
+.\output\debug\mbascii.o: ..\modbus\ascii\../rtu/mbcrc.h

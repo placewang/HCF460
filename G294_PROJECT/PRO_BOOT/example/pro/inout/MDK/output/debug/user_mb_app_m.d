@@ -1,0 +1,13 @@
+.\output\debug\user_mb_app_m.o: ..\modbus_port\user_mb_app_m.c
+.\output\debug\user_mb_app_m.o: ..\modbus_port\user_mb_app.h
+.\output\debug\user_mb_app_m.o: ..\modbus_port\../modbus/include/mb.h
+.\output\debug\user_mb_app_m.o: ..\modbus_port\port.h
+.\output\debug\user_mb_app_m.o: ..\modbus_port\../modbus/include/mbconfig.h
+.\output\debug\user_mb_app_m.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\assert.h
+.\output\debug\user_mb_app_m.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\debug\user_mb_app_m.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\debug\user_mb_app_m.o: ..\modbus_port\../modbus/include/mbport.h
+.\output\debug\user_mb_app_m.o: ..\modbus_port\../modbus/include/mbproto.h
+.\output\debug\user_mb_app_m.o: ..\modbus_port\../modbus/include/mb_m.h
+.\output\debug\user_mb_app_m.o: ..\modbus_port\../modbus/include/mbframe.h
+.\output\debug\user_mb_app_m.o: ..\modbus_port\../modbus/include/mbutils.h

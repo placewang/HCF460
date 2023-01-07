@@ -1,0 +1,12 @@
+.\output\release\tmc5610.o: ..\source\tmc5610.c
+.\output\release\tmc5610.o: ..\source\tmc5610.h
+.\output\release\tmc5610.o: ..\source\board_g294.h
+.\output\release\tmc5610.o: ..\source\machconfig.h
+.\output\release\tmc5610.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\release\tmc5610.o: ..\..\..\..\driver\inc\hc32f46x_spi.h
+.\output\release\tmc5610.o: ..\..\..\..\mcu\common\hc32_common.h
+.\output\release\tmc5610.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\release\tmc5610.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\output\release\tmc5610.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\release\tmc5610.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\release\tmc5610.o: ..\..\..\..\mcu\common\hc32f46x.h

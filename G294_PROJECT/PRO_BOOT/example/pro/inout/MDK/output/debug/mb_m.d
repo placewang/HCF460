@@ -1,0 +1,15 @@
+.\output\debug\mb_m.o: ..\modbus\mb_m.c
+.\output\debug\mb_m.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\debug\mb_m.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\output\debug\mb_m.o: ..\modbus\../modbus_port/port.h
+.\output\debug\mb_m.o: ..\modbus\../modbus_port/../modbus/include/mbconfig.h
+.\output\debug\mb_m.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\assert.h
+.\output\debug\mb_m.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\debug\mb_m.o: D:\Tool\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\debug\mb_m.o: ..\modbus\./include/mb.h
+.\output\debug\mb_m.o: ..\modbus\./include/mbport.h
+.\output\debug\mb_m.o: ..\modbus\./include/mbproto.h
+.\output\debug\mb_m.o: ..\modbus\./include/mb_m.h
+.\output\debug\mb_m.o: ..\modbus\./include/mbframe.h
+.\output\debug\mb_m.o: ..\modbus\./include/mbfunc.h
+.\output\debug\mb_m.o: ..\modbus\./rtu/mbrtu.h
